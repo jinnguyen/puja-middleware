@@ -55,7 +55,7 @@ class Application
                 $route['router']['controllerId'],
                 $route['router']['actionId'],
                 $route['uri'],
-                $route['params'] + $_REQUEST
+                (empty($route['params']) ? array() : $route['params']) + $_REQUEST
             )
         );
         $controller->beforeLoadAction();
