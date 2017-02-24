@@ -1,0 +1,35 @@
+{
+  "name": "jinnguyen/puja-middleware",
+  "description": "Puja-Middleware is a middleware library for !",
+  "type": "library",
+  "license": "The MIT License (MIT)",
+  "keywords": ["puja", "middleware"],
+  "authors": [
+    {
+      "name": "Jin Nguyen",
+      "email": "w2ajax@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "jinnguyen/puja-config": "*",
+    "jinnguyen/puja-template": "*",
+    "jinnguyen/puja-error": "*",
+    "jinnguyen/puja-entity": "*",
+    "jinnguyen/puja-route": "*",
+    "jinnguyen/puja-stdlib": "*",
+    "jinnguyen/puja-paginator": "*",
+    "jinnguyen/puja-log": "*",
+    "jinnguyen/puja-breadcrumb": "*",
+    "jinnguyen/puja-session": "*",
+    "jinnguyen/puja-db": "*"
+  },
+  "require-dev": {
+
+  },
+  "autoload": {
+    "psr-4": {
+      "Puja\\Middleware\\": "src/"
+    }
+  }
+}
